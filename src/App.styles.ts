@@ -3,12 +3,13 @@ import styled from 'styled-components';
 
 
 
-export const Image = styled.div`
-background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
-height: 400px;
-width: 100%; 
+// export const Image = styled.div`
+// background-image: url("http://officecont.cnt.br/images/OFFICE%20CONT%20HORIZONTAL.png");
+// height: 156px;
+// width: 30%; 
+// alineitem: center
 
-`;
+// `;
 
 
 export const Container = styled.div`

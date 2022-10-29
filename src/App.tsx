@@ -24,7 +24,9 @@ const App = () => {
     <C.Container>
      
       <C.Area>
-        <C.Header>AS BRONCAS DE HOJE!</ C.Header>
+
+        <C.Header>Lista de tarefas de hoje!</ C.Header>
+        
 
         <AddArea onEnter={handleAddTask} />
 
