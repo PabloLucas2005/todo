@@ -3,6 +3,7 @@ import * as C from './App.styles';
 import { Item } from './types/item';
 import { ListItem } from './components/Listitem';
 import { AddArea } from './components/AddArea';
+import AvisoTemp from './components/AddArea/AvisoTemp';
 
 const App = () => {
   const [list, setList] = useState<Item[]>([
@@ -24,10 +25,9 @@ const App = () => {
     <C.Container>
      
       <C.Area>
-
         <C.Header>Lista de tarefas de hoje!</ C.Header>
-        
-
+            
+        <AvisoTemp/>
         <AddArea onEnter={handleAddTask} />
 
         {list.map((item, index)=>(
