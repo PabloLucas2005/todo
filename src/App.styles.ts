@@ -16,6 +16,7 @@ export const Container = styled.div`
     background-color: #16366c;
     color: #797A81;
     min-height: 100vh;
+    
 `;
 
 export const Area = styled.div`
